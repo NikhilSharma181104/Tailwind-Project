@@ -39,7 +39,7 @@
 
     <div id="nav-dialog" class="hidden fixed z-10 lg:hidden bg-white inset-0 p-3">
       <div id="nav-bar" class="flex justify-between">
-        <a href="#" id="brand" class="flex gap-2 items-center">
+        <a href="#" id="brand-dialog" class="flex gap-2 items-center">
           <img class="object-cover max-w-12 max-h-12" src="./assets/asset 0.png" alt="Logo">
           <span class="text-lg font-medium font-display">ToDesktop</span>
         </a>
@@ -108,7 +108,7 @@
           <span class="font-semibold">APPS POWERED BY TODESKTOP</span>
           <img class="-scale-x-100 translate-y-2" src="./assets/asset 2.svg" alt="">
         </div>
-        <div id="lines-group" class="flex flex-col gap-4">
+        <div id="lines-group" class="flex flex-col gap-4 overflow-hidden">
           <div id="line1" class="flex gap-4 w-screen -translate-x-48 transition-transform ease-linear">
             <div
               class="flex flex-col justify-center gap-2 items-center min-w-24 min-h-24 bg-white rounded-xl border border-gray-300 md:min-h-32 md:min-w-32">
@@ -482,7 +482,7 @@
     <!-- Bento Grid -->
     <div id="bento-grid" class="container">
       <h2 class="text-5xl sm:font-semibold mb-14 max-w-2xl leading-normal">ToDesktop handles the details</h2>
-      <div id="grid-container" class="flex flex-col gap-6 lg:grid lg:grid-cols-3" style="grid-auto-rows: 96px;">
+      <div id="grid-container" class="flex flex-col gap-6 lg:grid lg:grid-cols-3" style="grid-auto-rows: minmax(96px, auto);">
         <div class="row-start-1 row-end-3 group rounded-2xl gradient-hover-outer">
           <div class="gradient-hover-inner rounded-2xl w-full h-full p-6 flex flex-col gap-6 items-center ">
             <h3 class="text-2xl">Native Notifications</h3>
@@ -891,7 +891,7 @@
         <a href="#" class="text-gray-600 hover:text-gray-900"><i class="fa-brands fa-twitter"></i></a>
         <a href="#" class="text-gray-600 hover:text-gray-900"><i class="fa-brands fa-github"></i></a>
       </div>
-      <a href="#" id="brand" class="flex gap-2 items-center flex-1">
+      <a href="#" id="brand-footer" class="flex gap-2 items-center flex-1">
         <img class="object-cover max-w-12 max-h-12" src="./assets/asset 0.png" alt="Logo">
         <span class="text-lg font-medium font-display">ToDesktop</span>
       </a>
